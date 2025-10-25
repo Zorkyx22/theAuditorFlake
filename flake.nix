@@ -21,7 +21,7 @@
 	    build-system = [ pypi.setuptools ];
 	  };
 
-	  src = pkgs.fetchFromGithub {
+	  src = pkgs.fetchFromGitHub {
 	    owner = "TheAuditorTool";
 	    repo = "Auditor";
 	    rev = "9a7d51168abcffcd6a560602bc71837495f7c775";
