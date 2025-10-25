@@ -10,7 +10,7 @@
     flake-utils.lib.eachDefaultSystem (system:
       let
 	pkgs = nixpkgs.legacyPackages.${system};
-      pypi = pkgs.python311packages;
+      pypi = pkgs.python313Packages;
     in
       {
 	packages.default = pypi.buildPythonPackage rec {
