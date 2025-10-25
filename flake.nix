@@ -28,7 +28,7 @@
 	    sha256 = "V+bClZbPvK/5oenv/5DePBG8gOPkU8TUoE/aTZkqQh8=";		
 	  };
 
-	  nativeBuildInputs = [	pypi.hatchling ];
+	  nativeBuildInputs = [	pypi.hatchling pypi.setuptools];
 	  buildInputs = [ pkgs.tree-sitter ];
 
 	  # Python dependencies from setup.py
