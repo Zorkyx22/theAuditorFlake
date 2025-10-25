@@ -16,10 +16,6 @@
 	packages.default = pypi.buildPythonPackage rec {
 	  pname = "theauditor";
 	  version = "v0";
-	  format = {
-	    pyproject = "true";
-	    build-system = [ pypi.setuptools ];
-	  };
 
 	  src = pkgs.fetchFromGitHub {
 	    owner = "TheAuditorTool";
@@ -28,7 +24,7 @@
 	    sha256 = "V+bClZbPvK/5oenv/5DePBG8gOPkU8TUoE/aTZkqQh8=";		
 	  };
 
-	  nativeBuildInputs = [	pypi.hatchling pypi.setuptools];
+	  nativeBuildInputs = [	pypi.hatchling ];
 	  buildInputs = [ pkgs.tree-sitter ];
 
 	  # Python dependencies from setup.py
