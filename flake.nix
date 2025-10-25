@@ -16,6 +16,10 @@
 	packages.default = pypi.buildPythonPackage rec {
 	  pname = "theauditor";
 	  version = "v0";
+	  format = {
+	    pyproject = "true";
+	    build-system = [ pypi.hatchling ];
+	  };
 
 	  src = pkgs.fetchFromGitHub {
 	    owner = "TheAuditorTool";
