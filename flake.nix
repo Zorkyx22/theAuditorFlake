@@ -70,7 +70,7 @@
 	  meta = with pkgs.lib; {
 	    description = "Offline, air-gapped CLI for repo indexing, evidence checking, and task running";
 	    homepage = "https://github.com/TheAuditorTool/Auditor";
-	    license = licenses.agpl30;
+	    license = licenses.free;
 	    platforms = platforms.linux;
 	  };
 	};
