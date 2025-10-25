@@ -25,7 +25,7 @@
 	    owner = "TheAuditorTool";
 	    repo = "Auditor";
 	    rev = "9a7d51168abcffcd6a560602bc71837495f7c775";
-	    sha256 = "0000000000000000000000000000000000000000000000000000";		
+	    sha256 = "V+bClZbPvK/5oenv/5DePBG8gOPkU8TUoE/aTZkqQh8=";		
 	  };
 
 	  nativeBuildInputs = [	pypi.hatchling ];
